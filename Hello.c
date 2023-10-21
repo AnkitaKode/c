@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include <conio.h>
 
 int main()
 {
-    printf("Hello World..");
-    getchar();
+     clrscr();
+    printf("Hello world..!");
+    getche();
+
     return 0;
 }
