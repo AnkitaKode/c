@@ -3,9 +3,8 @@
 
 int main()
 {
-     clrscr();
+
     printf("Hello world..!");
-    getche();
 
     return 0;
 }
