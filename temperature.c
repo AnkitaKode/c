@@ -4,15 +4,15 @@
 int main()
 {
 
-    float farenhite, celius;
+    float farenhite, celcius;
 
     printf("Enter farenhite: ");
     scanf("%f", &farenhite);
 
-    celius = ((farenhite - 32) / 9) * 5;
+    celcius = ((farenhite - 32) / 9) * 5;
 
-    printf("The celius is : %f", celius);
+    printf("The celius is : %f", celcius);
 
-    // normal human body temperature =37 C or 98.6 F
+    // normal human body temperature =37 degree C or 98.6 degree F
     return 0;
 }

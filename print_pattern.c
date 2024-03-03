@@ -18,7 +18,7 @@ void printpattern(int n)
         return;
     }
 
-    printpattern(n - 1);
+printpattern(n - 1);
     for (int i = 0; i < (2 * n - 1); i++)
     {
         printf("*");
