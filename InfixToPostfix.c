@@ -17,7 +17,7 @@ int isFull()
 
 char peek()
 {
-    return stk[top];
+    return stk[top]; 
 }
 
 char pop()
@@ -33,7 +33,7 @@ char pop()
 void push(char oper)
 {
     if (isFull())
-        printf("Stack Full!!!!");
+        printf("Stack Full");
 
     else
     {
