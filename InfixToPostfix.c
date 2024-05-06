@@ -17,7 +17,7 @@ int isFull()
 
 char peek()
 {
-    return stk[top]; 
+    return stk[top];
 }
 
 char pop()
