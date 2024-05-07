@@ -6,6 +6,7 @@
 char stk[20];
 int top = -1;
 
+
 int isEmpty()
 {
     return top == -1;
