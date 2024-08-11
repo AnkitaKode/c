@@ -21,6 +21,7 @@ int main()
         j = j + 1;
     }
 
+
     n = n - 1;
 
     printf("\nElements of array after deletion:\n");
