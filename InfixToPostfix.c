@@ -95,7 +95,11 @@ int covertInfixToPostfix(char *expression)
         }
     }
 
+    while (!isEmpty())
+        expression[++j] = pop();
 
+    expression[++j] = '\0';
+    printf("%s", expression);
 }
 
 int main()
